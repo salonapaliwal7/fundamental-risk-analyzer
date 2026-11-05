@@ -11,9 +11,9 @@ from tools.financial_tools import _cache, _float, _million
 @tool
 def run_dcf_model(
     ticker: str,
-    growth_rate: float,
-    discount_rate: float,
-    terminal_growth_rate: float,
+    growth_rate: float = 0.08,
+    discount_rate: float = 0.09,
+    terminal_growth_rate: float = 0.03,
 ) -> str:
     """
     Estimate intrinsic value using a 5-year Discounted Cash Flow model.

@@ -168,7 +168,7 @@ TOKEN EFFICIENCY:
 - Do not reproduce raw tool outputs or complete financial statements.
 - Avoid repeating the same metric or conclusion.
 - Include only information relevant to the requested analysis.
-- Keep the final report under approximately 500 words.
+- Keep the final report under approximately 250 words.
 - Use compact bullet points where appropriate.
 """
 

@@ -31,15 +31,25 @@ Analyze the following:
 - Cash flow statement
 - Key financial ratios
 
-Return a structured financial health assessment.
 
 TOKEN EFFICIENCY:
 - Be concise and factual.
 - Do not reproduce raw tool outputs or complete financial statements.
 - Avoid repeating the same metric or conclusion.
 - Include only information relevant to the requested analysis.
-- Keep the final report under approximately 500 words.
+- Keep the final report under approximately 250 words.
 - Use compact bullet points where appropriate.
+
+At the end, return a compact section exactly in this format:
+
+DCF_CONTEXT:
+revenue_growth_latest_year: [value or N/A]
+revenue_growth_prior_year: [value or N/A]
+fcf_3_year_cagr: [value or N/A]
+debt_to_equity: [value or N/A]
+operating_cash_flow_trend: [growing, declining, stable, or N/A]
+
+Do not estimate missing values. Keep this section concise.
 """
 
 

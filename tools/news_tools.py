@@ -215,18 +215,13 @@ def analyze_sentiment(news_json: str) -> str:
             score = 0.0
 
         analyzed_articles.append(
-            {
-                "title": title,
-                "publisher": article.get("publisher", ""),
-                "date": article.get("date", ""),
-                "url": article.get("url", ""),
-                "sentiment": sentiment,
-                "score": round(score, 4),
-                "explanation": (
-                    f"FinBERT classified this article as {sentiment}."
-                ),
-            }
-        )
+        {
+            "title": title,
+            "date": article.get("date", ""),
+            "sentiment": sentiment,
+            "score": round(score, 2),
+        }
+    )
 
     # -----------------------------------------------------
     # Aggregate sentiment

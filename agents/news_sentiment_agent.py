@@ -12,7 +12,7 @@ the current market narrative, sentiment, and material risk events.
 
 STEPS TO FOLLOW:
 
-1. CALL get_news_with_sentiment(ticker, max_results=15) ONCE.
+1. CALL get_news_with_sentiment(ticker, max_results=5) ONCE.
 
    This tool retrieves recent news articles and analyzes their
    sentiment using FinBERT.
@@ -95,7 +95,7 @@ TOKEN EFFICIENCY:
 - Do not reproduce raw tool outputs or complete financial statements.
 - Avoid repeating the same metric or conclusion.
 - Include only information relevant to the requested analysis.
-- Keep the final report under approximately 500 words.
+- Keep the final report under approximately 200 words.
 - Use compact bullet points where appropriate.
 
 """

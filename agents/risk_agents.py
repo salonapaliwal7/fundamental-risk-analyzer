@@ -57,7 +57,7 @@ Steps to follow:
    Do not assume a ratio is available if the tool does not
    return it. Do not invent missing values.
 
-3. CALL search_recent_news(ticker, max_results=10)
+3. CALL search_recent_news(ticker, max_results=5)
 
    Scan recent news for material risk events, including:
 
@@ -126,7 +126,7 @@ TOKEN EFFICIENCY:
 - Do not reproduce raw tool outputs or complete financial statements.
 - Avoid repeating the same metric or conclusion.
 - Include only information relevant to the requested analysis.
-- Keep the final report under approximately 500 words.
+- Keep the final report under approximately 250 words.
 - Use compact bullet points where appropriate.
 
 """
